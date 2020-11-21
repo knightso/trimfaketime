@@ -1,0 +1,10 @@
+--- FAIL: TestNG (0.00s)
+    trimfaketime_test.go:10: error1
+    trimfaketime_test.go:11: error2
+    trimfaketime_test.go:12: error3
+    trimfaketime_test.go:13: error4
+--- FAIL: TestFatal (0.00s)
+    trimfaketime_test.go:17: fatal
+FAIL
+FAIL	github.com/knightso/trimfaketime	0.225s
+FAIL
