@@ -11,7 +11,7 @@ go get -u github.com/knightso/trimfaketime/cmd/tft
 ## Usage
 
 ```
-go test --tags=faketime . | tft
+go test --tags=faketime . |& tft
 ```
 
 Note: Go test command status will be lost using pipes like above. You can get it by some shell features like PIPESTATUS variable if you need.
